@@ -1,0 +1,41 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+
+.Header {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #0559d8, #2abbc5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.GuessBox {
+    width: 60px;
+    height: 60px;
+    border: gray 2px solid;
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
