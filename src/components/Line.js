@@ -1,14 +1,18 @@
-import React from 'react';
 import "../styles/App.css";
 
 export default function Line({ word, guess, isGuessed }) {
+    const safeWord = word || "";
+    const safeGuess = guess || "";
+
     return (
         <div className='Grid'>
             {new Array(5).fill(0).map((_, index) => {
+                const char = safeGuess[index] || "";
+
                 const bgColor = isGuessed
-                    ? word[index] === guess[index]
+                    ? safeWord[index] === char
                         ? 'green'
-                        : word.includes(guess[index])
+                        : safeWord.includes(char)
                             ? 'gold'
                             : 'black'
                     : 'black';
@@ -17,9 +21,9 @@ export default function Line({ word, guess, isGuessed }) {
                     <div
                         className='GuessBox'
                         key={index}
-                        style={{ backgroundColor: bgColor }}
+                        style={{ backgroundColor: bgColor, color: "white" }}
                     >
-                        {guess[index]}
+                        {char.toUpperCase()}
                     </div>
                 );
             })}
