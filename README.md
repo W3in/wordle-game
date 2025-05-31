@@ -29,7 +29,7 @@ Mỗi lượt nhập sẽ nhận được phản hồi màu sắc, giúp ngườ
 
 ## 🛠️ Cài đặt và chạy ứng dụng
 
-**Bước 1:** Clone dự án về máy bằng Git 
+**Bước 1:** Clone dự án về máy bằng Git``  
 **Bước 2:** Di chuyển vào thư mục dự án bằng lệnh `cd wordle-game`  
 **Bước 3:** Cài đặt các thư viện cần thiết bằng lệnh `npm install`  
 **Bước 4:** Khởi chạy ứng dụng bằng lệnh `npm start`
