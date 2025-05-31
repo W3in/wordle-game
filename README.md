@@ -1,4 +1,4 @@
-##🎮WORDLE GAME
+🎮##WORDLE GAME
 Sơ lược về tựa game web này:
 Trong Wordle, mục tiêu của người chơi là đoán ra một từ 5 chữ cái trong tối đa 6 lượt đoán. Mỗi lần đoán, game sẽ phản hồi bằng cách thay đổi màu sắc của các ô chữ để cho biết chữ cái đó có đúng hay không, và nếu có thì nó có ở đúng vị trí không.
 
@@ -20,7 +20,7 @@ Người chơi sẽ nhập các từ mới cho đến khi đoán đúng hoặc h
 
 Mỗi lượt nhập sẽ nhận được phản hồi màu sắc, giúp người chơi dần dần khoanh vùng các chữ cái đúng và vị trí của chúng.
 
-##⚙️Công nghệ
+⚙️##Công nghệ
 Sử dụng chủ yếu là JavaScript có sự hỗ trợ của thư viện Reactjs 
 
 
